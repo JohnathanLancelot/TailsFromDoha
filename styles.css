@@ -1,0 +1,238 @@
+/* FONTS */
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* PAGE DEFAULTS - BUILT FOR PC */
+body {
+    background-color: rgb(31, 22, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    color: rgb(103, 91, 77)
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 1.1rem;
+    color: bisque;
+    font-family: serif;
+}
+
+.mother-div {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+/* Styling the banner for all pages */
+
+.banner {
+    background-color: rgb(103, 91, 77);
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-top > img {
+    height: 10vh;
+    margin-top: 3vh;
+}
+
+.backwards-cat {
+    transform: rotateY(180deg);
+}
+
+/* Intro section for the home page */
+
+#origin-div {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+}
+
+#three-cats-image {
+    height: 30vh;
+    border-radius: 5%;
+    margin-left: 7vw;
+}
+
+#origin-text {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home page's clickable cat icons */
+
+#cat-icons-div {
+    display: grid;
+    gap: 2.5vw;
+    grid-template-rows: repeat(6, 25vh);
+    grid-template-columns: repeat(7, 25vh);
+}
+
+.round-cat-icon {
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    object-fit: cover;
+}
+
+.descendant-lines {
+    height: 25vh;
+}
+
+#lines-1 {
+    grid-area: 1 / 2 / 2 / 4;
+    width: 55vh;
+}
+
+#lines-2 {
+    grid-area: 1 / 5 / 2 / 7;
+    width: 55vh;
+    transform: rotateY(180deg);
+}
+
+#cheshire-icon {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+#bandit-icon {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#hugo-icon {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#duma-icon {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+#montessa-icon {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+#lines-3, #lines-4 {
+    width: 75vh;
+}
+
+#lines-3 {
+    grid-area: 3 / 1 / 4 / 4;
+}
+
+#lines-4 {
+    grid-area: 3 / 5 / 4 / 8;
+}
+
+#lotte-icon {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+#teddy-icon {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+#freckles-icon {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+#monkey-icon {
+    grid-area: 4 / 5 / 5 / 6;
+}
+
+#tictac-icon {
+    grid-area: 4 / 7 / 5 / 8;
+}
+
+#other-cats-text {
+    grid-area: 5 / 1 / 6 / 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#prince-icon {
+    grid-area: 6 / 3 / 7 / 4;
+}
+
+#blondie-icon {
+    grid-area: 6 / 4 / 7 / 5;
+}
+
+#cinni-icon {
+    grid-area: 6 / 5 / 7 / 6;
+}
+
+.footer-div {
+    background-color: #675b4d;
+    width: 100vw;
+}
+
+.footer-div > p {
+    color: black;
+    line-height: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Cat pages' styling */
+.cat-page-names {
+    font-family: 'Dancing Script', cursive;
+    color:rgb(103, 91, 77);
+    font-size: 4rem;
+}
+
+.cat-info {
+    width: 30vw;
+}
+
+.cat-page-content-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.container {
+    width: 30vw;
+}
+
+.video-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 2vw;
+}
